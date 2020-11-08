@@ -10,7 +10,11 @@ def import_pandas():
 # 2. How to create a series from a list, numpy array and dict?
 def obj_to_series(obj):
     return pd.Series(obj)
-    
+
+# 3. How to convert the index of a series into a column of a dataframe?
+
+# Serie: a one dimensional object with axis label.
+# DataFrame: two dimensional array, data structure containing labeled axes (rows and columns).
 
 if __name__ == "__main__":
     array = np.zeros(10)
